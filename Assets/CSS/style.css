@@ -14,7 +14,7 @@ body {
   }
 
 h2 { 
-  font-family: Oswaldo;
+  font-family: Oswald;
   text-transform: uppercase; /* Make logo uppercase */
   letter-spacing: 4px; /* Space out lettering */
   color: #555555;
@@ -61,10 +61,15 @@ h2 {
 #hero-image {
   height: 600px;
   width: 100%;
-  background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center; /* Added positioning styling to improve image position */
+  background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center; /* Added positioning styling to improve image alignment */
+  
+  /* Call animation set below and set timing and direction */
+  animation-name: hero-zoom; 
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
-/* Hero image animation */
+/* Hero image animation outer */
 
 #hero-outer {
   height: 600px;
@@ -72,3 +77,12 @@ h2 {
   overflow: hidden; /* Clear header so that image is below header*/
 }
 
+/* Hero image animation 10% increase in zoom */
+@keyframes hero-zoom {
+  from {
+    transform: scale(1); /* Initial stage 100% */
+  }
+  to {
+    transform: scale(1.1); /* Final stage 110% */
+  }
+}
