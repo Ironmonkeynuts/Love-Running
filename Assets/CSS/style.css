@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:300&family=Oswald:wght@200..700&display=swap');
 
+/* general styling rules first */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,40 +15,43 @@ body {
 
 h2 { 
   font-family: Oswaldo;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+  text-transform: uppercase; /* Make logo uppercase */
+  letter-spacing: 4px; /* Space out lettering */
   color: #555555;
 }
 
+/* Logo and nav specific styling */
+
 #logo {
-  float: left;
-  font-size: 280%;
+  float: left; /* Float logo to left */
+  font-size: 280%; /* Enlarge font */
 }
 
 #menu {
   font-size: 110%;
-  list-style-type: none;
-  letter-spacing: 4px;
+  list-style-type: none; /* Remove bullet points from menu items */
+  letter-spacing: 4px; /* Space out lettering */
 }
 
 #logo, #menu {
-  line-height: 75px;
+  line-height: 75px; /* Create better vertical alignment */
 }
 
 #menu li {
-  float: right;
+  float: right; /* Float menu items to right */
   margin-right: 30px;
 }
 
+/* Style links */
 #menu a {
-  text-decoration: none;
+  text-decoration: none; /* Remove hyperlink styling */
   color: inherit;
 }
 
 #menu a:hover {
-  border-bottom: 1px solid #777777;
+  border-bottom: 1px solid #777777; /* Show selected menu item */
 }
 
 .active {
-  border-bottom: 1px solid #777777;
+  border-bottom: 1px solid #777777; /* Show default active menu item */
 }
