@@ -55,3 +55,20 @@ h2 {
 .active {
   border-bottom: 1px solid #777777; /* Show default active menu item */
 }
+
+/* Hero image display */
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center; /* Added positioning styling to improve image position */
+}
+
+/* Hero image animation */
+
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden; /* Clear header so that image is below header*/
+}
+
