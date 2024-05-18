@@ -132,8 +132,6 @@ h2 {
   padding-top: 30px;
   width: 33%;
   margin: 0 auto; /* Centers this text bewtwen the others */
-  background-color: silver;
-  
 }
 
 /* Horizontal rule under div headings in the club-ethos section */
@@ -172,3 +170,15 @@ hr {
   text-align: center;
   font-size: 280%;
 }
+
+#circle-container {
+  width: 300px;  
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  border-radius: 50%; /* Form circle */
+  margin: 0 auto; /* Centre the circle */
+}
+
