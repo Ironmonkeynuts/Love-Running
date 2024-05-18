@@ -125,7 +125,6 @@ h2 {
   padding-top: 30px;
   width: 33%;
   float: right; /* floats text to right side */
-  background-color: green;
 }
 
 #center-about {
@@ -150,3 +149,12 @@ hr {
   clear: both; /* To ensure each block is aligned veritically */
   margin-bottom: 50px; /* Adds space to next div */
 }
+
+.right-about-heading {
+  width: 50%; /* Text is half of page width */
+  float: left; /* Pushes text to right to align with photo */
+  line-height: 20px; /* To make text easily read */
+  clear: both; /* To ensure each block is aligned veritically */
+  margin-bottom: 50px; /* Adds space to next div */
+}
+
