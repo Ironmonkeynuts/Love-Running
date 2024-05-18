@@ -206,5 +206,10 @@ hr {
   float: left; /* To display panels horizontally within page flow */
   padding: 30px 0 0 10px; /* Padding around panels*/
   text-align: center; /* Spacial balance */
-  margin: 2px; 
+  margin: 2px; /* Space around for clarity */
 }
+
+#times h2 {
+  color: #fafafa;
+}
+
