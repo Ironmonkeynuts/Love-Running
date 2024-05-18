@@ -187,3 +187,13 @@ hr {
   background: url('http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png') no-repeat center center; /* Added positioning styling to improve image alignment */  
   border-radius: 50%;
 }
+
+/* Backround-image for Meeting Information section */
+#times {
+  background-image: url('http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+} 
