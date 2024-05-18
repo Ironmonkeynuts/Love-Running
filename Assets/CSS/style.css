@@ -75,6 +75,8 @@ h2 {
   height: 600px;
   width: 100%;
   overflow: hidden; /* Clear header so that image is below header*/
+  /* set relative position of parent element */
+  position: relative;
 }
 
 /* Hero image animation 10% increase in zoom */
@@ -85,4 +87,27 @@ h2 {
   to {
     transform: scale(1.1); /* Final stage 110% */
   }
+}
+#cover-text, #cover-text h2 {
+  color: #ffffff;
+}
+
+#cover-text {
+  /* Style text to fit in to overall style*/
+  font-size: 130%;
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  /* Fix area to fit text */
+  width: 300px;
+  height: 200px;
+  /* Padding to keep text clear  */
+  padding-top: 40px;
+  padding-left: 10px;
+  /* Translucent Colour to surround text above image*/
+  background-color: rgba(241, 109, 107, .7);
+  /* Fix position relative to parent container */
+  bottom: 30px;
+  right: 170px;
+  position: absolute;
 }
