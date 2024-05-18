@@ -23,6 +23,7 @@ h2 {
 #logo {
   float: left; /* Float logo to left */
   font-size: 280%; /* Enlarge font */
+  margin-left: 30px; /* Shift logo to the right*/
 }
 
 #menu {
@@ -37,7 +38,7 @@ h2 {
 
 #menu li {
   float: right; /* Float menu items to right */
-  margin-right: 30px;
+  margin-right: 30px; /* shift menu items to the left */
 }
 
 /* Style links */
@@ -164,4 +165,9 @@ hr {
 
 .right-about-heading p {
   text-align: right; /* to align right hand side symmetrical to left hand side */
+}
+
+#welcome {
+  margin: 50px 0;
+  text-align: center;
 }
