@@ -152,9 +152,16 @@ hr {
 
 .right-about-heading {
   width: 50%; /* Text is half of page width */
-  float: left; /* Pushes text to right to align with photo */
+  float: left; /* Pushes text to left to align with photo */
   line-height: 20px; /* To make text easily read */
   clear: both; /* To ensure each block is aligned veritically */
   margin-bottom: 50px; /* Adds space to next div */
 }
 
+.right-about-heading h2 {
+  text-align: right; /* to align right hand side symmetrical to left hand side */
+}
+
+.right-about-heading p {
+  text-align: right; /* to align right hand side symmetrical to left hand side */
+}
