@@ -182,3 +182,8 @@ hr {
   margin: 0 auto; /* Centre the circle */
 }
 
+#circle-cover-bg {
+  height: 100%;
+  background: url('http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png') no-repeat center center; /* Added positioning styling to improve image alignment */  
+  border-radius: 50%;
+}
