@@ -243,7 +243,7 @@ footer {
   width: 100%; /* Image fills column width */
 }
 
-/* For tablets and mobile phones */
+/* For tablets and mobile phones for club-ethos section*/
 @media screen and (max-width: 1393px) {
   /* Section area altered */
    #club-ethos {
@@ -273,4 +273,17 @@ footer {
    hr {
     display: none;
    }
+}
+
+/* For smaller devices for header */
+@media screen and (max-width: 943px) {
+  /* Move menu items left below logo */
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
 }
