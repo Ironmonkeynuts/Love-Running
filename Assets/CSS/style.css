@@ -231,3 +231,14 @@ footer {
   padding: 5%;
   color: #777777;
 }
+
+#photo {
+  clear: both; /* Display images below header */
+  line-height: 0; /* Remove horizontal gaps between images */
+  column-count: 4; /* Organise images in 4 columns */
+  column-gap: 0; /* Remove vertical gaps between images */
+}
+
+#photo img {
+  width: 100%;
+}
