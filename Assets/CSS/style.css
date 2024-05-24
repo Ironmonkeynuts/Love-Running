@@ -244,7 +244,7 @@ footer {
 }
 
 /* For tablets and mobile phones for club-ethos section*/
-@media screen and (max-width: 1393px) {
+@media screen and (max-width: 1396px) {
   /* Section area altered */
    #club-ethos {
     width: 65%;
@@ -286,4 +286,28 @@ footer {
     line-height: 25px;
   }
 
+  #cover-text {
+    left: 0;  /* align left edge of text flush with screen edge */
+  }
+  
+  #club-ethos {
+    width: 90%; /* 5% spacing either side of the section */
+    height: 1200px;
+    margin: 0 auto; /* centre section */
+  }
+
+  .left-about-heading, .right-about-heading {
+    width: inherit; /* Fill content to match width of parent section */
+  }
+
+  .left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center; /* Centre the headings */
+  }
+
+  .left-about-heading p, .right-about-heading p {
+    text-align: center; /* Centre the paragraphs */
+    padding: 0 20px; /* Left and right padding */
+  }
+  
 }
