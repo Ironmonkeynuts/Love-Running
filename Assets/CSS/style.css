@@ -322,4 +322,13 @@ footer {
     padding: 0 20px; /* Left and right padding */
   }
 
+  #photo {
+    column-count: 3; /* Limit columns for photo gallery for smaller screens */
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #photo {
+    column-count: 2; /* Limit columns for photo gallery for smallest screens */
+  }
 }
